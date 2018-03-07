@@ -17,6 +17,7 @@ export class HomePage {
   }
   goPerson(){
     this.navCtrl.push(Person)
+
   }
   loads2(){
     this.loads2d.show()
@@ -25,18 +26,4 @@ export class HomePage {
     },2000)
   }
 }
-/*export class HomePage {
 
-  constructor(public navCtrl: NavController, public app : App ,public loading:LoadingController ) {
-
-  }
-
-  goPerson(){
-    this.navCtrl.push(Person)
-  }
-  loads2(navCtrl,app,loading){
-    let load = new AboutPage(navCtrl, app ,loading)
-    console.log(load.loading);;
-
-  }
-}*/

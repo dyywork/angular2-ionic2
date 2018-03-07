@@ -17,7 +17,7 @@ export class Login {
     this.navCtrl.push(TabsPage);
   }
   ionViewDidLoad() {
-    console.log('ionViewDidLoad Login');
+
   }
 
 }
